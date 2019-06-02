@@ -3,11 +3,9 @@
         Basé sur les widget de 	: ksoul78 / jimmy / snow51
         Mise à jour				: JAG 20190526 : Correction code pour V4
     -->
-    <center>
-        <div class="content-xs" style="#hideCmdName#">#name_display#</div>
-        <span class="iconCmd#id#" title="#name#"></span>
-        <span class="timeCmd#id# timeCmd value" style="font-weight: bold;font-size : 10px;"></span>
-    </center>
+    <span style="font-size:12px;#hideCmdName#">#name_display#</span>
+    <div class="iconCmd#id#"></div>
+    <span class="timeCmd#id# timeCmd value" style="font-weight: bold;font-size : 10px;"></span>
     <script>
         jeedom.cmd.update['#id#'] = function(_options){
             // Options de personnalisation avec valeur par defaut
